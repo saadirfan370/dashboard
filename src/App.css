@@ -1,0 +1,344 @@
+.sidebar {
+  /* width: 290px; */
+  height: 100%;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  /* left: -250px; */
+  transition: left 0.3s ease-in-out;
+}
+.main{
+position: relative;
+  margin-left: 20px;
+}
+
+.sidebar.open {
+  left: 0;
+}
+.login {
+  height: 80px;
+}
+
+.toggle-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  /* background-color: #ccc; */
+  border: none;
+  color: #fff;
+  text-align: center;
+  /* cursor: pointer; */
+  position: absolute;
+  /* width: 119px; */
+  height: 43px;
+  /* left: 38px; */
+  top: 30.08px;
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 35.4809px;
+  line-height: 43px;
+  /* identical to box height */
+  color: #323232;
+}
+.curr {
+  display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.8024px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #72aa83;
+  /* justify-content: center; */
+  /* margin-right: 10px; */
+  padding-left: 20px;
+}
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.menu li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background-color: #e0e0e0;
+}
+.logout {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.btn1 {
+  /* position: absolute; */
+  width: 131px;
+  height: 50px;
+  left: 29px;
+  top: 884px;
+  background: linear-gradient(180deg, #48af78 0%, #42996b 100%);
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 33px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  margin-bottom: 5px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+.btn1:hover{
+  width: 135px;
+  height: 53px;
+  transition: 0.3s;
+}
+p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #494949;
+}
+.toptxt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.5557px;
+  line-height: 100px;
+  /* identical to box height */
+  padding-top: 60px;
+  letter-spacing: -0.02em;
+  color: #72aa83;
+}
+.box1 {
+  width: 97%;
+  height: 210px;
+  left: 402px;
+  top: 159px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+.tetbox {
+  display: flex;
+}
+.txt {
+  margin: 5px;
+  width: 27%;
+}
+.txt h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.3972px;
+  line-height: 35px;
+  letter-spacing: -0.015em;
+
+  color: #48af78;
+}
+.txt span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.9257px;
+  line-height: 20px;
+  letter-spacing: -0.005em;
+
+  color: #959595;
+}
+.txt12 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.3972px;
+  line-height: 35px;
+  letter-spacing: -0.015em;
+
+  color: #48af78;
+}
+.tabs {
+  height: 44px;
+  border: 1px solid #959595;
+  border-radius: 24px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.tabs div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.096px;
+  line-height: 19px;
+  letter-spacing: -0.07em;
+cursor: pointer;
+  color: #959595;
+}
+.box2{
+  margin-top: 20px;
+  width: 97%;
+height: 446px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 54px;
+padding: 20px;
+}
+.tab{
+  width: 60%;
+  height: 48px;
+background: #44A16F;
+border-radius: 24px;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 15.096px;
+line-height: 19px;
+letter-spacing: -0.07em;
+
+color: #FFFFFF;
+}
+.cardstru{
+  height: 220px;
+width: 30%;
+background: #F5F4F4;
+border: 1px solid rgba(0, 0, 0, 0.18);
+border-radius: 10px;
+position: relative;
+}
+.content{
+  box-sizing: border-box;
+padding: 0 5px 0 5px;
+  position: absolute;
+  width: 100%;
+  height: 93px;
+  bottom: 0;
+  background: #EEEEEE;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.content h5{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 14.5894px;
+line-height: 21px;
+letter-spacing: -0.07em;
+text-align: center;
+color: #959595;
+margin-top: 5px;
+}
+.content1{
+  display: flex;
+  justify-content: space-between;
+}
+.cont{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14.2321px;
+line-height: 23px;
+/* identical to box height */
+
+letter-spacing: -0.07em;
+
+color: #959595;
+
+}
+.content1 button{
+  height: 40px;
+background: #44A16F;
+border-radius: 10px;
+outline: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 15.5894px;
+line-height: 21px;
+letter-spacing: -0.07em;
+color: #FFFFFF;
+outline: none;
+border: 2px solid transparent;
+}
+.content1 button:hover{
+  opacity: 0.5;
+}
+.cardstru1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 58%;
+}
+.cardstru1 img{
+  display: block;
+}
+.cardstru1 div span{
+  font-family: 'Poppins';
+font-style: italic;
+font-weight: 400;
+font-size: 15.1247px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -0.01em;
+position: absolute;
+color: #85C371;
+margin-top: 5px;
+}
+.cards{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.color{
+  background-color: rgb(253, 243, 7);
+}
+.icon{
+  box-sizing: border-box;
+position: sticky;
+width: 80px;
+height: 80px;
+right: 20px;
+bottom: 20px;
+background: #44A16F;
+border: 1px solid #69AC80;
+border-radius: 50%;
+float: right;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .sidebar{
+    display: none;
+    transition: 0.3s;
+  }
+  .main2{
+    width: 100%;
+  }
+}
